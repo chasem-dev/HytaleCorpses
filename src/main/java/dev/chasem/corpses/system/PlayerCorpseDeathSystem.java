@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.system;
+package dev.chasem.corpses.system;
 
 import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.Ref;
@@ -8,7 +8,6 @@ import com.hypixel.hytale.component.dependency.RootDependency;
 import com.hypixel.hytale.component.query.Query;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.math.vector.Vector3d;
-import com.hypixel.hytale.math.vector.Vector3f;
 import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.inventory.Inventory;
 import com.hypixel.hytale.server.core.modules.entity.component.HeadRotation;
@@ -19,7 +18,7 @@ import com.hypixel.hytale.server.core.modules.entity.player.PlayerSkinComponent;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.protocol.PlayerSkin;
-import dev.chasem.hg.corpses.util.PlayerCorpseSpawner;
+import dev.chasem.corpses.util.PlayerCorpseSpawner;
 
 import javax.annotation.Nonnull;
 import java.util.Set;

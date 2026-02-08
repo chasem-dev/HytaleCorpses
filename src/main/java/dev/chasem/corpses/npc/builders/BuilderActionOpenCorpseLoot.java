@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.npc.builders;
+package dev.chasem.corpses.npc.builders;
 
 import com.google.gson.JsonElement;
 import com.hypixel.hytale.server.npc.asset.builder.BuilderDescriptorState;
@@ -6,7 +6,7 @@ import com.hypixel.hytale.server.npc.asset.builder.BuilderSupport;
 import com.hypixel.hytale.server.npc.asset.builder.InstructionType;
 import com.hypixel.hytale.server.npc.corecomponents.builders.BuilderActionBase;
 import com.hypixel.hytale.server.npc.instructions.Action;
-import dev.chasem.hg.corpses.npc.ActionOpenCorpseLoot;
+import dev.chasem.corpses.npc.ActionOpenCorpseLoot;
 
 import java.util.EnumSet;
 import javax.annotation.Nonnull;

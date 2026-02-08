@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.util;
+package dev.chasem.corpses.util;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -13,14 +13,18 @@ import com.hypixel.hytale.server.core.entity.nameplate.Nameplate;
 import com.hypixel.hytale.server.core.inventory.Inventory;
 import com.hypixel.hytale.server.core.inventory.ItemStack;
 import com.hypixel.hytale.server.core.inventory.container.ItemContainer;
+import com.hypixel.hytale.server.core.modules.entity.component.HeadRotation;
 import com.hypixel.hytale.server.core.modules.entity.component.Invulnerable;
 import com.hypixel.hytale.server.core.modules.entity.component.ModelComponent;
+import com.hypixel.hytale.server.core.modules.entity.component.TransformComponent;
 import com.hypixel.hytale.server.core.modules.entity.player.PlayerSkinComponent;
 import com.hypixel.hytale.server.core.modules.entitystats.EntityStatsModule;
+import com.hypixel.hytale.server.core.entity.entities.Player;
+import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.server.npc.NPCPlugin;
 import com.hypixel.hytale.server.npc.entities.NPCEntity;
-import dev.chasem.hg.corpses.component.PlayerCorpseComponent;
+import dev.chasem.corpses.component.PlayerCorpseComponent;
 import it.unimi.dsi.fastutil.Pair;
 
 import javax.annotation.Nonnull;
@@ -68,14 +72,10 @@ public final class PlayerCorpseSpawner {
             @Nonnull String spawnReason,
             @Nullable InventorySnapshot inventorySnapshot
     ) {
-        com.hypixel.hytale.server.core.entity.entities.Player player =
-                store.getComponent(playerRef, com.hypixel.hytale.server.core.entity.entities.Player.getComponentType());
-        com.hypixel.hytale.server.core.universe.PlayerRef playerRefComp =
-                store.getComponent(playerRef, com.hypixel.hytale.server.core.universe.PlayerRef.getComponentType());
-        com.hypixel.hytale.server.core.modules.entity.component.TransformComponent transform =
-                store.getComponent(playerRef, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent.getComponentType());
-        com.hypixel.hytale.server.core.modules.entity.component.HeadRotation headRotation =
-                store.getComponent(playerRef, com.hypixel.hytale.server.core.modules.entity.component.HeadRotation.getComponentType());
+        Player player = store.getComponent(playerRef, Player.getComponentType());
+        PlayerRef playerRefComp = store.getComponent(playerRef, PlayerRef.getComponentType());
+        TransformComponent transform = store.getComponent(playerRef, TransformComponent.getComponentType());
+        HeadRotation headRotation = store.getComponent(playerRef, HeadRotation.getComponentType());
         PlayerSkinComponent skinComponent =
                 store.getComponent(playerRef, PlayerSkinComponent.getComponentType());
 

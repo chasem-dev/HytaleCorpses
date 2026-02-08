@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.component;
+package dev.chasem.corpses.component;
 
 import com.hypixel.hytale.component.Component;
 import com.hypixel.hytale.component.ComponentType;

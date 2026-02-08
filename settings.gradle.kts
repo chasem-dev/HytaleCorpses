@@ -13,6 +13,3 @@ plugins {
 }
 
 rootProject.name = "HytaleCorpses"
-
-include("corpses-mod")
-

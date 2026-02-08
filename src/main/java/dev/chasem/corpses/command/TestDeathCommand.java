@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.command;
+package dev.chasem.corpses.command;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -14,7 +14,7 @@ import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
-import dev.chasem.hg.corpses.util.PlayerCorpseSpawner;
+import dev.chasem.corpses.util.PlayerCorpseSpawner;
 
 import javax.annotation.Nonnull;
 

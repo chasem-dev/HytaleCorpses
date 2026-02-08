@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.npc;
+package dev.chasem.corpses.npc;
 
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
@@ -16,9 +16,9 @@ import com.hypixel.hytale.server.npc.corecomponents.ActionBase;
 import com.hypixel.hytale.server.npc.entities.NPCEntity;
 import com.hypixel.hytale.server.npc.role.Role;
 import com.hypixel.hytale.server.npc.sensorinfo.InfoProvider;
-import dev.chasem.hg.corpses.component.PlayerCorpseComponent;
-import dev.chasem.hg.corpses.npc.builders.BuilderActionOpenCorpseLoot;
-import dev.chasem.hg.corpses.ui.CorpseLootPage;
+import dev.chasem.corpses.component.PlayerCorpseComponent;
+import dev.chasem.corpses.npc.builders.BuilderActionOpenCorpseLoot;
+import dev.chasem.corpses.ui.CorpseLootPage;
 
 import javax.annotation.Nonnull;
 

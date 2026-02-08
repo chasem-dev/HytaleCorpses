@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.ui;
+package dev.chasem.corpses.ui;
 
 import com.hypixel.hytale.codec.Codec;
 import com.hypixel.hytale.codec.KeyedCodec;

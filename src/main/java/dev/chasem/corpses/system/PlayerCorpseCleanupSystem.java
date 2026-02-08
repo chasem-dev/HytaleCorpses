@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses.system;
+package dev.chasem.corpses.system;
 
 import com.hypixel.hytale.component.ArchetypeChunk;
 import com.hypixel.hytale.component.CommandBuffer;
@@ -9,7 +9,7 @@ import com.hypixel.hytale.component.query.Query;
 import com.hypixel.hytale.component.system.tick.EntityTickingSystem;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
-import dev.chasem.hg.corpses.component.PlayerCorpseComponent;
+import dev.chasem.corpses.component.PlayerCorpseComponent;
 
 import javax.annotation.Nonnull;
 

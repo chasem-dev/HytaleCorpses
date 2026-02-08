@@ -1,4 +1,4 @@
-package dev.chasem.hg.corpses;
+package dev.chasem.corpses;
 
 import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.logger.HytaleLogger;
@@ -6,11 +6,11 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.server.npc.NPCPlugin;
-import dev.chasem.hg.corpses.command.TestDeathCommand;
-import dev.chasem.hg.corpses.component.PlayerCorpseComponent;
-import dev.chasem.hg.corpses.npc.builders.BuilderActionOpenCorpseLoot;
-import dev.chasem.hg.corpses.system.PlayerCorpseCleanupSystem;
-import dev.chasem.hg.corpses.system.PlayerCorpseDeathSystem;
+import dev.chasem.corpses.command.TestDeathCommand;
+import dev.chasem.corpses.component.PlayerCorpseComponent;
+import dev.chasem.corpses.npc.builders.BuilderActionOpenCorpseLoot;
+import dev.chasem.corpses.system.PlayerCorpseCleanupSystem;
+import dev.chasem.corpses.system.PlayerCorpseDeathSystem;
 
 /**
  * Standalone player corpse mod:
