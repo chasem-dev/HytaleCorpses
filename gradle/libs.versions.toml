@@ -1,0 +1,39 @@
+[versions]
+# Hytale Server API - latest: https://maven.hytale.com/release/com/hypixel/hytale/Server/maven-metadata.xml
+hytale-server = "2026.02.06-aa1b071c2"
+jetbrains-annotations = "26.0.2-1"
+jspecify = "1.0.0"
+bettermodlist = "1.+"
+jedis = "5.1.2"
+bytebuddy = "1.14.18"
+gson = "2.11.0"
+mongodb = "4.2.3"
+junit = "5.10.2"
+mockito = "5.11.0"
+assertj = "3.25.3"
+
+[libraries]
+hytale-server = { module = "com.hypixel.hytale:Server", version.ref = "hytale-server" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotations" }
+jspecify = { module = "org.jspecify:jspecify", version.ref = "jspecify" }
+bettermodlist = { module = "com.buuz135:BetterModlist", version.ref = "bettermodlist" }
+jedis = { module = "redis.clients:jedis", version.ref = "jedis" }
+bytebuddy = { module = "net.bytebuddy:byte-buddy", version.ref = "bytebuddy" }
+bytebuddy-agent = { module = "net.bytebuddy:byte-buddy-agent", version.ref = "bytebuddy" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+mongodb-driver = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodb" }
+
+# Testing
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine" }
+junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+mockito-junit = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockito" }
+assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+
+[bundles]
+
+[plugins]

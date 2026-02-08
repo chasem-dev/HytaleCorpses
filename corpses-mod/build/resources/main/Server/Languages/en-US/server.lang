@@ -1,0 +1,7 @@
+# Corpse role name
+npcRoles.HC_Player_Corpse.name = Corpse
+
+# Interaction hint shown on the corpse
+server.interactionHints.corpse.inspect = Press [{key}] to search Corpse
+interactionHints.corpse.inspect = Press [{key}] to search Corpse
+

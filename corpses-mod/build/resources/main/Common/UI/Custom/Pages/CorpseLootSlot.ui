@@ -1,0 +1,27 @@
+$C = "../Common.ui";
+
+@SlotSize = 52;
+
+// Single loot slot with click-to-take functionality
+Group {
+  Anchor: (Width: @SlotSize, Height: @SlotSize);
+  Padding: 2;
+
+  // Clickable button with simple background
+  Button #SlotButton {
+    Anchor: (Full: 0);
+    Background: (Color: #1a1a2e);
+    Style: (
+      Default: (Background: (Color: #1a1a2e)),
+      Hovered: (Background: (Color: #2a2a4e)),
+      Pressed: (Background: (Color: #0a0a1e)),
+      Sounds: $C.@ButtonSounds,
+    );
+
+    // Item display inside the button
+    // Note: ShowQualityBackground removed to avoid issues with empty slots
+    ItemSlot #ItemSlot {
+      Anchor: (Full: 2);
+    }
+  }
+}

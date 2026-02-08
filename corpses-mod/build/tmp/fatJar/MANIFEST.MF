@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Specification-Title: HytaleCorpses
+Specification-Version: 0.1.0
+Implementation-Title: corpses-mod
+Implementation-Version: 0.1.0
+
